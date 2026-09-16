@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Apex Air & Home provides reliable AC, plumbing, and electrical services. Request a fast quote today.">
+  <title>Apex Air & Home | Home Services</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a class="logo" href="#">APEX<span>.</span></a>
+  <nav id="nav">
+    <a href="#services">Services</a><a href="#why">Why Us</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a>
+  </nav>
+  <a class="btn btn-small" href="#contact">Get a Quote</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">LOCAL HOME SERVICES</p>
+    <h1>Comfort fixed.<br><em>Stress removed.</em></h1>
+    <p class="hero-text">Professional AC, plumbing and electrical services with clear communication and fast response.</p>
+    <div class="actions"><a class="btn" href="#contact">Request a Quote</a><a class="text-link" href="tel:+15550123456">Call (555) 012-3456 →</a></div>
+    <div class="trust"><span>★★★★★</span> 4.9/5 from local customers</div>
+  </div>
+  <div class="hero-card">
+    <span class="card-label">NEED HELP TODAY?</span>
+    <h2>Tell us what’s wrong.</h2>
+    <p>Choose a service and send your details. This demo instantly creates a quote request.</p>
+    <a class="btn full" href="#contact">Start Request</a>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="section-head"><div><p class="eyebrow">WHAT WE DO</p><h2>One team. <em>Every essential.</em></h2></div></div>
+  <div class="cards">
+    <article class="service"><div class="icon">01</div><h3>AC & Cooling</h3><p>Repairs, maintenance, installation and emergency cooling support.</p><a href="#contact" data-service="AC & Cooling">Request service →</a></article>
+    <article class="service"><div class="icon">02</div><h3>Plumbing</h3><p>Leaks, fixtures, drains, water heaters and general plumbing work.</p><a href="#contact" data-service="Plumbing">Request service →</a></article>
+    <article class="service"><div class="icon">03</div><h3>Electrical</h3><p>Fault finding, outlets, lighting, panels and residential electrical work.</p><a href="#contact" data-service="Electrical">Request service →</a></article>
+  </div>
+</section>
+
+<section class="split" id="why">
+  <div><p class="eyebrow">WHY APEX</p><h2>Good service should feel <em>simple.</em></h2><p>We designed our process around what homeowners actually need: a quick response, clear next steps and professional work.</p></div>
+  <div class="steps"><div><b>01</b><span><strong>Tell us the problem</strong><small>Send a few details through the form.</small></span></div><div><b>02</b><span><strong>Get a clear plan</strong><small>We review the request and contact you.</small></span></div><div><b>03</b><span><strong>Get it handled</strong><small>Book a convenient service time.</small></span></div></div>
+</section>
+
+<section class="section" id="reviews">
+  <p class="eyebrow">CUSTOMER LOVE</p><h2>Built around <em>trust.</em></h2>
+  <div class="quote"><p>“The communication was excellent. I knew what was happening at every step.”</p><strong>— Demo customer review</strong></div>
+</section>
+
+<section class="contact" id="contact">
+  <div><p class="eyebrow">REQUEST A QUOTE</p><h2>Let’s fix the problem.</h2><p>Fill this demo form and you’ll see a professional lead-capture flow in action.</p><a class="whatsapp" id="whatsapp" href="#" target="_blank" rel="noopener">Message on WhatsApp ↗</a></div>
+  <form id="quoteForm">
+    <label>Name<input name="name" required placeholder="Your name"></label>
+    <label>Phone<input name="phone" required placeholder="+1 555 000 0000"></label>
+    <label>Service<select name="service" id="serviceSelect" required><option value="">Choose a service</option><option>AC & Cooling</option><option>Plumbing</option><option>Electrical</option></select></label>
+    <label>What do you need?<textarea name="message" rows="4" placeholder="Briefly describe the issue"></textarea></label>
+    <button class="btn full" type="submit">Send Request</button>
+    <p class="form-status" id="formStatus" aria-live="polite"></p>
+  </form>
+</section>
+</main>
+
+<footer><strong>APEX<span>.</span></strong><small>Demo portfolio website — fictional business.</small></footer>
+<script src="script.js"></script>
+</body>
+</html>
